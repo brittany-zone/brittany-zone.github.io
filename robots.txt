@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brittany-zone.github.io/sitemap.xml
