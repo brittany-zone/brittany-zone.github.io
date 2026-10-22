@@ -244,7 +244,17 @@ footer.sc-footer a {color:var(--paper)!important;display:inline-block;padding:12
 @media(max-width:600px) {.sd-cover {display:flex;flex-direction:column-reverse}.breed-photo {height:300px;min-height:0}.sd-cover-text {padding:28px 24px}.main-content>article {padding:25px 0 25px 48px!important}.main-content>article:first-of-type h2 {font-size:1.75rem!important}}
 
 </style>
-</head>
+<!--brittany-photos:styles--><style id="sc-brittany-photos">
+.article .brittany-article-photo {margin:32px 0;max-width:100%;break-inside:avoid}
+.article .brittany-article-photo img {display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:8px}
+.article .brittany-article-photo figcaption {font:italic .8rem/1.6 Georgia,serif;color:#596151;margin-top:9px}
+.main-content>article .brittany-card-photo {display:block;width:100%;max-height:260px;height:auto;aspect-ratio:3/2;object-fit:cover;margin:0 0 20px;border-radius:5px}
+.layout,.page-wrap {align-items:start!important;overflow:visible}
+aside.sidebar {position:sticky!important;top:24px!important;align-self:start;max-height:calc(100vh - 48px);max-height:calc(100dvh - 48px);overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable}
+aside.sidebar:focus-visible {outline:3px solid #87502e;outline-offset:4px}
+@media(max-width:900px) {aside.sidebar {position:static!important;max-height:none;overflow:visible;scrollbar-gutter:auto}}
+@media(max-width:600px) {.article .brittany-article-photo {margin:24px 0}.main-content>article .brittany-card-photo {max-height:none}}
+</style><!--/brittany-photos--></head>
 <body>
 <header class="sc-topbar">
   <div class="sc-topbar-inner">

@@ -295,7 +295,17 @@ footer.sc-footer a {color:var(--paper)!important;display:inline-block;padding:12
 @media(max-width:600px) {.sd-cover {display:flex;flex-direction:column-reverse}.breed-photo {height:300px;min-height:0}.sd-cover-text {padding:28px 24px}.main-content>article {padding:25px 0 25px 48px!important}.main-content>article:first-of-type h2 {font-size:1.75rem!important}}
 
 </style>
-</head>
+<!--brittany-photos:styles--><style id="sc-brittany-photos">
+.article .brittany-article-photo {margin:32px 0;max-width:100%;break-inside:avoid}
+.article .brittany-article-photo img {display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:8px}
+.article .brittany-article-photo figcaption {font:italic .8rem/1.6 Georgia,serif;color:#596151;margin-top:9px}
+.main-content>article .brittany-card-photo {display:block;width:100%;max-height:260px;height:auto;aspect-ratio:3/2;object-fit:cover;margin:0 0 20px;border-radius:5px}
+.layout,.page-wrap {align-items:start!important;overflow:visible}
+aside.sidebar {position:sticky!important;top:24px!important;align-self:start;max-height:calc(100vh - 48px);max-height:calc(100dvh - 48px);overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable}
+aside.sidebar:focus-visible {outline:3px solid #87502e;outline-offset:4px}
+@media(max-width:900px) {aside.sidebar {position:static!important;max-height:none;overflow:visible;scrollbar-gutter:auto}}
+@media(max-width:600px) {.article .brittany-article-photo {margin:24px 0}.main-content>article .brittany-card-photo {max-height:none}}
+</style><!--/brittany-photos--></head>
 <body>
 <header class="sc-topbar">
   <div class="sc-topbar-inner">
@@ -397,7 +407,7 @@ footer.sc-footer a {color:var(--paper)!important;display:inline-block;padding:12
 </ul>
 <p>If you notice any of these behaviors combined with a sudden decrease in appetite, vomiting, or limping, a vet visit is urgent, as these could signal a medical issue rather than a behavioral one.</p>
 
-<h2>Mental Work: The Non-Negotiable Half of the Equation</h2>
+<!--brittany-photos:article--><figure class="brittany-article-photo" data-brittany-photo="article"><img src="/assets/brittany/meadow-exploration.webp" alt="Athletic orange-and-white Brittany exploring grass beside a woodland trail" width="1536" height="1024" loading="lazy" decoding="async" data-ai-generated="true"><figcaption>AI-generated illustration of a Brittany; not a photograph of a specific dog.</figcaption></figure><!--/brittany-photos--><h2>Mental Work: The Non-Negotiable Half of the Equation</h2>
 <p>Physical exercise tires the body. Mental work exhausts the mind. A Brittany can run for two hours and be ready to go again after a ten-minute rest. However, twenty minutes of <strong>structured nose work</strong> or <strong>advanced obedience</strong> will leave them content for hours. This is because the breed was selected for independent problem-solving in the field, not just stamina.</p>
 <p>Incorporate at least one 20- to 30-minute session of focused mental work daily. This could be:<br />
 - Teaching a new trick using shaping<br />
@@ -580,7 +590,7 @@ footer.sc-footer a {color:var(--paper)!important;display:inline-block;padding:12
   
 <div class="ai-note" style="border-left:4px solid #312e81;background:#f7f9fa;padding:12px 16px;margin:24px 0;font-size:0.9rem;color:#4b5563"><strong>Written by Paul Mercier.</strong> This guide was drafted with the help of AI tools from the sources linked above and checked before publishing.</div>
 </article>
-  <aside class="sidebar">
+  <aside class="sidebar" tabindex="0" aria-label="Article resources">
     
     <section class="sidebar-panel"><h3>More Brittany Articles</h3><ul><li><a href="/brittany-separation-anxiety-how-common.html">How Common Is Brittany Separation Anxiety? Statistics and Routine Risk Factors</a></li><li><a href="/brittany-puppy-biting-phase.html">Brittany Puppy Biting Phase</a></li></ul></section>
   </aside>
