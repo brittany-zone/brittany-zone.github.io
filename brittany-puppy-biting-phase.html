@@ -313,7 +313,44 @@ aside.sidebar:focus-visible {outline:3px solid #87502e;outline-offset:4px}
 .aios-video-card iframe{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;border:0}.aios-video-mobile{display:block;margin:1rem 0;font-size:.9rem}
 .aios-video-card[data-placement="compact"]{max-width:34rem}.sidebar .aios-video-card{margin:1rem 0;padding:.75rem}
 @media(max-width:760px){.aios-video-card{padding:.85rem}.aios-video-title{font-size:.95rem}}
-</style></head>
+</style>
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="Why Brittany Puppies Bite—And How to Stop It Fast">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://brittany-zone.github.io/brittany-puppy-biting-phase.html">
+<meta property="og:description" content="Discover why your Brittany puppy bites and the proven training methods that end aggressive nipping before it becomes a serious problem.">
+<meta property="og:image" content="https://brittany-zone.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://brittany-zone.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="brittany zone editorial illustration">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Brittany Puppies Bite—And How to Stop It Fast">
+<meta name="twitter:description" content="Discover why your Brittany puppy bites and the proven training methods that end aggressive nipping before it becomes a serious problem.">
+<meta name="twitter:image" content="https://brittany-zone.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="brittany zone editorial illustration">
+<!-- social-cards:end -->
+</head>
 <body>
 <header class="sc-topbar">
   <div class="sc-topbar-inner">
@@ -343,7 +380,7 @@ aside.sidebar:focus-visible {outline:3px solid #87502e;outline-offset:4px}
     <p class="lead">Transparency first: Yes, the Brittany puppy biting phase can be frustrating. But it’s also normal, temporary, and manageable. In this article, we talk openly…</p>
   </div>
 </section>
-<div class="layout">
+<div class="layout" data-follow-parent="true">
   <article class="article">
     
     <nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Brittany Puppy Biting Phase</span></nav>
@@ -417,7 +454,7 @@ aside.sidebar:focus-visible {outline:3px solid #87502e;outline-offset:4px}
   
 <div class="ai-note" style="border-left:4px solid #312e81;background:#f7f9fa;padding:12px 16px;margin:24px 0;font-size:0.9rem;color:#4b5563"><strong>Written by Paul Mercier.</strong> This guide was drafted with the help of AI tools from the sources linked above and checked before publishing.</div>
 </article>
-  <aside class="sidebar" tabindex="0" aria-label="Article resources"><section class="sidebar-panel"><h3>About this site</h3><p>Paul Mercier writes about Brittany spaniels, bird-dog instincts and active family life.</p><p><a href="/about.html">More about us</a></p></section>
+  <aside class="sidebar" tabindex="0" aria-label="Article resources" data-follow-sidebar="existing"><section class="sidebar-panel"><h3>About this site</h3><p>Paul Mercier writes about Brittany spaniels, bird-dog instincts and active family life.</p><p><a href="/about.html">More about us</a></p></section>
     
     
   </aside>
